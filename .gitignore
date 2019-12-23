@@ -1,0 +1,10 @@
+node_modules
+
+# test data
+gists.json
+giphy.json
+repos.json
+exam.md
+
+# build 
+dist
