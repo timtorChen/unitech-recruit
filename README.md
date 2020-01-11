@@ -1,29 +1,32 @@
 # Unitech-recuit
 
-This is a demo project for per-interview test of [UniverseTech](https://www.104.com.tw/company/1a2x6bkmni) in Taiwan.
+**📦️ 此專案已封存，僅供參考**
+
+這是我在面試臺灣[天翰國際科技有限公司 - 前端工程師](https://www.104.com.tw/company/1a2x6bkmni)時，被要求做的[面試前測驗](https://forms.gle/QaFr7SNE9TVKxwsh7)，測驗中包含幾個[前端基本考題](exam.md)，以及本專案中實作的靜態網頁。
 
 
-### Test Requirement
-1. Use Github [API](https://developer.github.com/v3/) to list your public repositories, including at least repo title, description and url. 
+### 實作測驗描述
+請寫一個純前端的網頁，並放在 GitHub 或類似的網站上。
 
-2. Implement one of the techniques
-    - Infinite Scrolling
-    - Parallax Scrolling
+1. 使用 [GitHub API](https://developer.github.com/v3/)，列出自己的 GitHub public repo，列表內容至少要包括：title (標題)、description (專案描述)、url (專案網址)，其餘資訊自行決定
 
-Note that: You should not implement the core of second requirement with any package. It is a ideal choice to use modern framework. It's fine not supporting IE.
+2. 下面兩項技術二擇一，需要出現在網頁上
+- Infinite Scroll (無限滾動)
+- Parallax Scrolling (視差滾動)
+以上兩項技術不可以使用套件完成，但網頁其餘部份，可使用套件
+若使用現代前端框架尤佳，可以不用支援 IE
 
-
-### Result 
+### 實作結果
 
 ```bash
-# clone this project your computer
+# 將本專案複製到你目前的資料夾下
 git clone https://github.com/timtorChen/unitech-recruit.git
-# into the directory
+# 開啟本專案資料夾
 cd unitech-recruit
-# install dependencies
+# 安裝套件
 yarn install
-# build and output bundled files on /dist directory
+# 將原始碼打包並輸出到 /dist 資料夾下
 yarn build
-# start a server on http://localhost:3000
+# 建立一個簡單的本機伺服器 http://localhost:3000
 yarn start
 ```
